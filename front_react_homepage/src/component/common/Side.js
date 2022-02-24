@@ -13,7 +13,7 @@ const Side = ( ) => {
                     <Link  to="/">홈</Link>                
                   </li>
                   <li className="no-underline">
-                    <Link to ="/board/list">게시판관리</Link>
+                    <Link to ="/board/list">게시판관리</Link> 
                   </li>
                   <li className="no-underline">
                     <Link to="/shop">상품관리</Link>

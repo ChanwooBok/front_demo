@@ -23,7 +23,7 @@ const Header = ( ) => {
                 { sessionStorage.getItem('success')==='true'?
                     <Link to='/member/logout' onClick={onLogout}><h3>{sessionStorage.getItem('user_name')}님! 로그아웃</h3></Link>
                     :
-                    <Link to='/member/login/'><h3>로그인</h3></Link>
+                    <Link to='/member/login'><h3>로그인</h3></Link>
                 }
             </div>
         </header>

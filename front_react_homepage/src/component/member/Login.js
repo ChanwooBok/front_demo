@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { baseUrl } from '../../config'; // 상위폴더로 2번이동 : ../ 2번
 
 const Login = ( ) => {
-    const baseUrl = "http://localhost:8090";
+    //const baseUrl = "http://localhost:8090";
 
     const [user_id, setId] = useState('');
     const [user_pwd, setPwd] = useState('');
@@ -45,7 +46,7 @@ const Login = ( ) => {
         }
         handleSubmit();
         setId('');
-        setPwd('');
+        setPwd(''); // 로그인 후 빈칸으로 초기화 
     }
 
     return (
