@@ -18,6 +18,8 @@ const BoardList = ( ) => {
             .then((response) => {
                 console.log(response.data);
                 setBoardList(response.data);
+                //console.log(boardList.user_id) 
+                // state는 리렌더링이 되야 해서 이렇게 setBoardList로 값이 바뀌어도  이렇게 하면  암것도 안뜬다.
             })
             .catch((error)=> {
                 console.log(error);
