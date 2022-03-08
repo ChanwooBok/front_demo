@@ -29,7 +29,7 @@ const Demo_02_useState_useRef = () => {
     // 리렌더링이 되면 Let은 초기화 되버림. vs State & Ref 는 리렌더링되도 값 유지 
 
 
-    //Ref 는 버튼 눌러도 안 바뀐다. 즉, return 이 다시 되지 않는다는 뜻.
+    //Ref 는 버튼 눌러도 안 바뀐다. 즉, return 이 다시 되지 않는다는 뜻.-> 리렌더링x
     // Ref & Let : re rendering 이 안된다.
     // useState, Ref : 리렌더링 되어도 값이 저장됨.
     // useRef: dom에 값을 저장하기 위함. 직접적으로 값 저장가능 ( input 등의 값..)
